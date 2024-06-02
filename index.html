@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home</title>
+</head>
+<body>
+  <!--NAVIGATION-->
+  <nav>
+  <style>
+    nav {
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.8e m;
+    background-color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+    box-shadow: 0 0 7px 7px lightgray;
+    }
+
+    nav li {
+      display: flex;
+      align-items: center;
+    }
+
+    nav li ul {
+      margin-left: 48px;
+    }
+
+    nav li ul a {
+      text-decoration: none;
+      color: rgb(0, 0, 100);
+      transition-duration: 0.1s;
+    }
+    nav li ul a:hover {
+      background-color: whitesmoke;
+      padding: 1.2em 3px;
+      margin: -3px;
+    }
+    nav li ul .home {
+      font-weight: bolder;
+    }
+
+
+    .nav-right a {
+      background-color: rgb(0, 0, 100);
+      transition-duration: 0.1s;
+      margin-right: 48px;
+      padding: 5px 14px;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .nav-right a:hover {
+      background-color: black;
+    }
+
+  </style>
+      <li>
+        <ul>
+          <img src="./Image/logo.png" alt="logo">
+        </ul>
+        <ul>
+          <a href="./index.html" class="home">Home</a>
+        </ul>
+        <ul>
+          <a href="myproject.html" class="my-project">My Project</a>
+        </ul>
+      </li>
+    </div>
+    <div class="nav-right">
+      <a href="./contact.html">Contact Me</a>
+    </div>
+  </nav>
+  <!--NAVIGATION-->
+    <div class="main">
+        <div class="left-content">
+            <div class="intro">
+                <h1>Hi, Welcome To My Bio</h1>
+                <p>Saya Zulfan, usia 25 tahun yang saat ini sedang freelance sebagai seorang musisi reguler. 
+                    Namun saya butuh ilmu yang lebih untuk mengembangkan potensi dalam diri saya dan untuk 
+                    bisa menyesuaikan diri dalam menghadapi perkembangan teknologi yang kian pesat. 
+                    agar saya tidak terlalu jauh tertinggal, maka saya putuskan untuk mengikuti 
+                    program Fullstack Developer di Dumbways.id ini yang sekiranya bisa
+                    merubah secercah harapan saya untuk masa depan yang lebih baik lagi.</p>
+                <button>contact</button>
+                <p class="download-link">Download CV <a href="blank"><i class="fa-solid fa-download fa-xl" style="color: rgb(0, 0, 100);"></i></a></p>
+            </div>
+            <div class="socmed">
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram" style="color: black;"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-x-twitter" style="color:black;"></i></a>
+                <a href="https://linkedin.com"><i class="fa-brands fa-linkedin" style="color:black;" ></i></a>
+                <a href="https://github.com"><i class="fa-brands fa-github" style="color:black;"></i></a>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="card">
+                <img src="./Image/Zulfan.jpg" alt="profile picture" width="280px">
+                <h2>Muhammad Zulfan Liddinillah</h2>
+                <p>Fullstack Developer</p>               
+            </div>
+        </div>
+            
+    </div>
+    <script src="https://kit.fontawesome.com/46c9a62c65.js" crossorigin="anonymous"></script>
+</body>
+</html>
